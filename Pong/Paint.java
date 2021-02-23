@@ -28,7 +28,7 @@ public class Paint extends JFrame implements ActionListener {
         bx += velx;
         by += vely;
 
-        if(bx > 700) {
+        if(bx > 705) {
             velx *= -1;
         }
         if(bx < 60 && bx > 50 && by > py && by < py + 100) {
